@@ -1,0 +1,9 @@
+[package]
+name = "rs-console-logger"
+version = "0.1.0"
+authors = ["Nick Murphy <comfortablynick@gmail.com>"]
+edition = "2018"
+description = "Lightweight adapter for log crate to print to console (stderr)"
+
+[dependencies]
+log = "0.4.11"
